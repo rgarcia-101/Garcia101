@@ -59,3 +59,13 @@ h4 {
     border-bottom: 1px rgb(155, 148, 132) solid;
 }
 
+/* RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 600px) {
+    p {
+        width: 80%;
+        font-size: 135%;
+        margin: 1em auto 2em auto;
+    }
+}
+
