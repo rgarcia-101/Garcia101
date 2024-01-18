@@ -17,6 +17,9 @@ p {
 h1, h2, h3, h4, a, p, li {
     color: rgb(255, 255, 255);
 }
+h1 {
+    font-size: 100%;
+}
 h4 {
     font-size: 200%;
 }
@@ -26,6 +29,7 @@ h4 {
 #header-bar ul {
     list-style-type: none;
 }
+
 #header-bar li, #header-bar h1 {
     display: inline;
 }
@@ -62,10 +66,44 @@ h4 {
 /* RESPONSIVE DESIGN*/
 
 @media screen and (max-width: 600px) {
+    #bar-header {
+        display: block;
+        width: 100%;
+        margin: 1em auto .5em auto;
+    }
+    h1 {
+        display: block;
+        font-size: 135%;
+        text-align: center;
+    }
+
+    #header-list {
+        display: inline-block;
+    }
+    #header-list {
+        display: inline-block;
+    }
+    .bar-item {
+        font-size: 125%;
+        padding-bottom: 1em;
+        display: inline-block;
+    }
     p {
         width: 80%;
         font-size: 135%;
         margin: 1em auto 2em auto;
+    }
+    #header-bar {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    #header-bar li {
+        display: block;
+    }
+    #header-nav {
+        border: 0;
+        width: 100%;
     }
 }
 
