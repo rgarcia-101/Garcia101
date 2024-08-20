@@ -30,45 +30,17 @@ h4 {
     background-color: rgb(30, 32, 33);
 }
 
-#header-bar ul {
-    list-style-type: none;
-}
-
-#header-bar li, #header-bar h1 {
-    display: inline;
-}
-#bar-header {
-    font-size: 1.5em;
-    display: inline;
-    font-weight: bolder;
-    float: left;
-    padding-right: 2em;
-    margin: -0.25em 0 0em 1em;
-}
-#header-bar a {
-    text-decoration: none;
-}
-
-#header-bar {
-    width: 550px;
-}
-
-.bar-item {
-    padding: 0px 32px 0 0px;
-}
-.bar-item:hover {
-    color: rgb(161, 161, 161);
-    transition: 0.2s;
-}
-
-#header-nav {
-    width: 100%;
-    margin-left: -7px;
-    border-bottom: 1px rgb(155, 148, 132) solid;
-}
 
 /* RESPONSIVE DESIGN */
 
-/* @media screen and (max-width: 600px) {
-} */
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 150%;
+        width: 85%;
+    }
+    main{
+        width: 100%;
+        padding-top: 1em;
+    }
+}
 

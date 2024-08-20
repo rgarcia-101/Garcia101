@@ -12,6 +12,7 @@ p {
 
 @media screen and (max-width: 600px) {
     img {
+        margin-bottom: 2em;
         width: 45%;
     }
 }

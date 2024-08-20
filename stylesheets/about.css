@@ -10,6 +10,7 @@ img {
 
 @media screen and (max-width: 600px) {
     img {
-        width: 35%;
+        width: 40%;
+        margin-top: 1.5em;
     }
 }
