@@ -12,10 +12,21 @@ const includeHead = () => {
     head.appendChild(boot);
 }
 
+const includeNavBar = () => {
+    fetch("snippets/navbar.html")
+    .then(response => {
+        return response.text();
+    })
+    .then(text => {
+        document.querySelector("header").innerHTML = text;
+    });
+}
+
 
 
 const init = () => {
     includeHead();
+    includeNavBar();
 }
 
 window.onload = init;
