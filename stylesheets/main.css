@@ -1,6 +1,6 @@
 
-html {
-    background-color: rgb(5, 2, 15);
+body {
+    background-color: rgb(8, 3, 24);
 }
 
 main{
@@ -25,6 +25,10 @@ h4 {
 }
 
 /* HEADER STYLES */
+
+#nav-main {
+    background-color: rgb(30, 32, 33);
+}
 
 #header-bar ul {
     list-style-type: none;
@@ -63,47 +67,8 @@ h4 {
     border-bottom: 1px rgb(155, 148, 132) solid;
 }
 
-/* RESPONSIVE DESIGN*/
+/* RESPONSIVE DESIGN */
 
-@media screen and (max-width: 600px) {
-    #bar-header {
-        display: block;
-        width: 100%;
-        margin: 1em auto .5em auto;
-    }
-    h1 {
-        display: block;
-        font-size: 135%;
-        text-align: center;
-    }
-
-    #header-list {
-        display: inline-block;
-    }
-    #header-list {
-        display: inline-block;
-    }
-    .bar-item {
-        font-size: 125%;
-        padding-bottom: 1em;
-        display: inline-block;
-    }
-    p {
-        width: 80%;
-        font-size: 135%;
-        margin: 1em auto 2em auto;
-    }
-    #header-bar {
-        width: 50%;
-        margin: auto;
-        text-align: center;
-    }
-    #header-bar li {
-        display: block;
-    }
-    #header-nav {
-        border: 0;
-        width: 100%;
-    }
-}
+/* @media screen and (max-width: 600px) {
+} */
 
