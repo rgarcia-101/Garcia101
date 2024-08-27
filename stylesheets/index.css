@@ -1,5 +1,7 @@
 img {
     width: 25%;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 p {
@@ -15,5 +17,10 @@ p {
         margin-bottom: 2em;
         width: 45%;
     }
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
