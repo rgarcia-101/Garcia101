@@ -29,4 +29,4 @@ const init = () => {
     includeNavBar();
 }
 
-window.onload = init;
+// window.onload = init;
